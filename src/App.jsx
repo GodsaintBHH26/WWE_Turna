@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import ViewPort from "./play_section/ViewPort";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1 className='text-red-500 font-bold'>Hey there!!</h1>
+      <div className="flex flex-col h-screen items-center w-screen">
+        <h1 className="text-red-500 font-bold mb-10 top-1 ">WWE Turna!!</h1>
+        <ViewPort />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

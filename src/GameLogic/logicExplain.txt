@@ -1,0 +1,9 @@
+Author Message ---------------------------------
+When I initially started making (basically right now 05-04-2025), I just wanted to try something different than the things I usually do and I was inspired by the website - pokemonshowdown.com //
+
+Game Logic -------------------------------------
+As I first thought of making this game, there were a few things I considered.
+    1. The probability of each move, lesser the damage the higher the probability of that move. (Here, when I talk about probability, I mean the probability of that move landing on the opponent)
+    2. The damage dealt by each move. (There are currently 4 moves right now, which will changed in the future where the user will be able to choose 4 moves out of a given menu of 10 moves)
+    3. The balance between those moves to keep fair gameplay. (To make sure players don't feel unfair against a certain wrestler, I've decided to keep the damage dealt by wrestler almost same depending on the catagory of that move)
+    4. The total hit-points or health aka hp, will be same for each wrestler 
