@@ -69,4 +69,16 @@ button:focus-visible {
   --spacing-128: 32rem;
   --spacing-140: 35rem;
    
+  --animate-hitting: hitting 2s ease-in-out linear;
+  @keyframes hitting {
+    0%,
+    50%{
+      right:20px;
+      top: 10px;
+    },
+    100%{
+      left: 20px;
+      bottom: 10px;
+    }
+  }
 }
