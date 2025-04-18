@@ -69,16 +69,36 @@ button:focus-visible {
   --spacing-128: 32rem;
   --spacing-140: 35rem;
    
-  --animate-hitting: hitting 2s ease-in-out linear;
+  --animate-hitting: hitting 2s ease-in;
+  --animate-movement: movement 3s ease-in-out infinite;
+
   @keyframes hitting {
-    0%,
+    0%{
+      transform: translate(0, 0) ;
+      z-index: 10;
+    }
     50%{
-      right:20px;
-      top: 10px;
-    },
+      transform:translate(250px, -140px);
+      z-index: 10;
+    }
     100%{
-      left: 20px;
-      bottom: 10px;
+      transform:translate(0, 0);
+      z-index: 10;
     }
   }
+
+  @keyframes movement {
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(1rem);
+
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+ 
 }
+

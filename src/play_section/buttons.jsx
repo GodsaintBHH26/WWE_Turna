@@ -4,7 +4,7 @@ function PlayButtons({setAnimate}) {
   
   const handleClick = (btnType)=>{
     console.log(`Clicked ${btnType} button`);
-    setAnimate(true);
+    setAnimate(btnType);
   }
 
   return (
